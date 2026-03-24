@@ -27,5 +27,5 @@ jobs:
         context: ./auth-service
         push: true
         tags: |
-          ${{ secrets.DOCKER_HUB_USERNAME }}/billing-auth-service:latest
-          ${{ secrets.DOCKER_HUB_USERNAME }}/billing-auth-service:${{ github.sha }}
+          ku2972000/billing-auth-service:latest
+          ku2972000/billing-auth-service:${{ github.sha }}
