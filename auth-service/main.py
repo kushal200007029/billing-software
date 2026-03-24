@@ -90,3 +90,7 @@ async def validate(token: str):
         return {"username": payload.get("sub"), "valid": True}
     except jwt.JWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
+
+@app.get("/health")
+async def health():
+    return {"status": "healthy", "service": "auth-service"}
