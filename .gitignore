@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+venv/
+.venv/
+target/
+*.class
+.mvn/
+bin/
+obj/
+
+# Databases
+*.db
+*.sqlite3
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+apache-maven-3.9.9/
+mvn.zip
+auth.db
+package-lock.json
